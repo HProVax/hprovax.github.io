@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Hamed Abdollahi</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="images/logo.png" alt="Hamed Abdollahi" />
+      <div>
+        <div class="nav-brand-name">Hamed Abdollahi</div>
+        <div class="nav-brand-title">DVM, PhD · Postdoctoral Fellow</div>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="biolab.html">Molecular BioLab</a></li>
+      <li><a href="computational.html">Computational Biology</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-banner">
+  <p class="page-banner-label">Get in Touch</p>
+  <h1 class="page-banner-title">Contact</h1>
+  <p class="page-banner-sub">
+    Open to research collaborations, consulting inquiries, and academic opportunities.
+  </p>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- FORM -->
+      <div>
+        <h2 style="margin-bottom:1.5rem;">Send a Message</h2>
+        <p style="color:var(--text-muted);margin-bottom:2rem;font-size:.95rem;">
+          Describe your project, question, or collaboration idea. I typically respond
+          within a few business days.
+        </p>
+
+        <div class="form-group">
+          <label class="form-label" for="name">Full Name</label>
+          <input type="text" id="name" class="form-control" placeholder="Your name" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email">Email Address</label>
+          <input type="email" id="email" class="form-control" placeholder="your@email.com" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="subject">Subject</label>
+          <input type="text" id="subject" class="form-control" placeholder="Collaboration / Inquiry / Other" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="message">Message</label>
+          <textarea id="message" class="form-control" rows="5"
+            placeholder="Describe your project, question, or collaboration idea..."></textarea>
+        </div>
+
+        <button type="button" class="btn btn-primary" style="width:100%;"
+          onclick="window.location.href='mailto:HA25@mailbox.sc.edu?subject='+document.getElementById('subject').value+'&body='+document.getElementById('message').value">
+          <i class="fa-solid fa-paper-plane"></i> Send Message
+        </button>
+      </div>
+
+      <!-- CONTACT INFO -->
+      <div>
+        <h2 style="margin-bottom:1.5rem;">Contact Information</h2>
+
+        <div class="card" style="margin-bottom:1.5rem;">
+          <div class="contact-item" style="border-bottom:1px solid var(--border);padding-bottom:.75rem;margin-bottom:.75rem;">
+            <i class="fa-solid fa-envelope" style="color:var(--teal);width:18px;"></i>
+            <div>
+              <div style="font-size:.78rem;font-weight:600;color:var(--navy);margin-bottom:.1rem;">Academic Email</div>
+              <a href="mailto:HA25@mailbox.sc.edu" style="font-size:.9rem;color:var(--text-muted);">HA25@mailbox.sc.edu</a>
+            </div>
+          </div>
+          <div class="contact-item" style="border-bottom:1px solid var(--border);padding-bottom:.75rem;margin-bottom:.75rem;">
+            <i class="fa-solid fa-envelope" style="color:var(--teal);width:18px;"></i>
+            <div>
+              <div style="font-size:.78rem;font-weight:600;color:var(--navy);margin-bottom:.1rem;">Personal Email</div>
+              <a href="mailto:HProVax@gmail.com" style="font-size:.9rem;color:var(--text-muted);">HProVax@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot" style="color:var(--teal);width:18px;"></i>
+            <div>
+              <div style="font-size:.78rem;font-weight:600;color:var(--navy);margin-bottom:.1rem;">Location</div>
+              <a href="https://maps.app.goo.gl/yTz8M8XeHsyMa3xk6" target="_blank"
+                 style="font-size:.9rem;color:var(--text-muted);">Columbia, South Carolina, USA</a>
+            </div>
+          </div>
+        </div>
+
+        <h4 style="margin-bottom:1rem;font-size:.95rem;">Professional Profiles</h4>
+        <div style="display:flex;flex-direction:column;gap:.6rem;">
+          <a href="https://www.linkedin.com/in/hamed-abdollahi-15117079" target="_blank"
+             class="btn btn-outline" style="color:var(--navy);border-color:var(--border);justify-content:flex-start;gap:.75rem;">
+            <i class="fa-brands fa-linkedin-in" style="color:#0077b5;width:18px;"></i>
+            LinkedIn Profile
+          </a>
+          <a href="https://scholar.google.com/citations?user=lXf0_H0AAAAJ&hl=en" target="_blank"
+             class="btn btn-outline" style="color:var(--navy);border-color:var(--border);justify-content:flex-start;gap:.75rem;">
+            <i class="fa-solid fa-graduation-cap" style="color:var(--teal);width:18px;"></i>
+            Google Scholar
+          </a>
+          <a href="https://orcid.org/0000-0002-2202-2193" target="_blank"
+             class="btn btn-outline" style="color:var(--navy);border-color:var(--border);justify-content:flex-start;gap:.75rem;">
+            <i class="fa-brands fa-orcid" style="color:#a6ce39;width:18px;"></i>
+            ORCID Profile
+          </a>
+          <a href="https://github.com/HProVax" target="_blank"
+             class="btn btn-outline" style="color:var(--navy);border-color:var(--border);justify-content:flex-start;gap:.75rem;">
+            <i class="fa-brands fa-github" style="color:var(--navy);width:18px;"></i>
+            GitHub
+          </a>
+        </div>
+
+        <div class="callout" style="margin-top:2rem;">
+          <p style="font-size:.88rem;">
+            <i class="fa-solid fa-lightbulb" style="color:var(--teal);margin-right:.5rem;"></i>
+            I am open to research collaborations, consulting for pharmaceutical and biotech
+            organizations, academic networking, and joint grant applications.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-name">Hamed Abdollahi, DVM, PhD</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="biolab.html">Molecular BioLab</a>
+      <a href="computational.html">Computational Biology</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="publications.html">Publications</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="footer-copy">Postdoctoral Fellow · University of South Carolina · Columbia, SC</p>
+  </div>
+</footer>
+
+</body>
+</html>

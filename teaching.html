@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teaching | Hamed Abdollahi</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="images/logo.png" alt="Hamed Abdollahi" />
+      <div>
+        <div class="nav-brand-name">Hamed Abdollahi</div>
+        <div class="nav-brand-title">DVM, PhD · Postdoctoral Fellow</div>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="biolab.html">Molecular BioLab</a></li>
+      <li><a href="computational.html">Computational Biology</a></li>
+      <li><a href="teaching.html" class="active">Teaching</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-banner">
+  <p class="page-banner-label">Academia</p>
+  <h1 class="page-banner-title">Teaching</h1>
+  <p class="page-banner-sub">
+    Graduate-level courses in computational structural biology and bioinformatics at the
+    University of South Carolina.
+  </p>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <div class="callout" style="margin-bottom:3rem;">
+      <p>
+        <i class="fa-solid fa-university" style="color:var(--teal);margin-right:.5rem;"></i>
+        Department of Computer Science and Engineering, University of South Carolina, Columbia.
+        Courses offered as part of the graduate and advanced undergraduate curriculum.
+      </p>
+    </div>
+
+    <!-- ── COURSE 1 ── -->
+    <div class="course-card">
+      <div class="course-header">
+        <div>
+          <p class="course-code">CSCE 769</p>
+          <h2 class="course-title">Computational Structural Biology</h2>
+        </div>
+        <div class="course-meta">
+          <span class="course-badge">Section 001 · CRN 27574</span>
+          <span class="course-badge">3 Credit Hours</span>
+          <span style="color:rgba(255,255,255,.5);font-size:.75rem;">Last Updated 8/21/2024</span>
+        </div>
+      </div>
+      <div class="course-body">
+        <div class="course-info-row">
+          <div class="course-info-item">
+            <i class="fa-solid fa-chalkboard"></i>
+            <span>Face-to-Face Instruction</span>
+          </div>
+          <div class="course-info-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>USC Columbia Campus</span>
+          </div>
+          <div class="course-info-item">
+            <i class="fa-solid fa-calendar"></i>
+            <span>Columbia Full Term (Part of Term: 30)</span>
+          </div>
+        </div>
+
+        <p class="course-desc">
+          This course is intended to familiarize investigators with theoretical concepts and
+          algorithmic tools in the field of protein folding, including
+          <strong>AlphaFold</strong>, <strong>ROSETTA</strong>, and <strong>I-TASSER</strong>.
+          Widely-used software packages such as <strong>VMD</strong> and <strong>NAMD</strong>
+          are also introduced. Upon completion, participants are expected to engage in competitive
+          research in protein folding.
+        </p>
+
+        <p class="course-desc">
+          The course provides a brief introduction to main concepts of molecular biology,
+          experimental methods of protein structure determination (principally NMR), and general
+          classes of protein folding approaches (ab initio versus threading). Visualization,
+          evaluation, and computation tools are introduced throughout.
+        </p>
+
+        <h5 style="margin-bottom:.75rem;color:var(--navy);">Topics Covered</h5>
+        <ul class="topic-list">
+          <li>Topics in structural biology</li>
+          <li>Protein structure characterization and classification</li>
+          <li>Experimental data — NOE and RDC data from NMR</li>
+          <li>Computational protein folding by force field minimization</li>
+          <li>Constrained optimization in protein folding</li>
+          <li>Protein folding based on threading algorithms</li>
+          <li>Molecular modeling and molecular mechanics</li>
+          <li>Introduction to quantum mechanics</li>
+          <li>Visualization tools: PyMOL, VMD</li>
+          <li>AlphaFold, ROSETTA, I-TASSER — practical use</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ── COURSE 2 ── -->
+    <div class="course-card">
+      <div class="course-header">
+        <div>
+          <p class="course-code">CSCE 555</p>
+          <h2 class="course-title">Algorithms in Bioinformatics</h2>
+        </div>
+        <div class="course-meta">
+          <span class="course-badge">Section 001 · CRN 59207</span>
+          <span class="course-badge">3 Credit Hours</span>
+          <span style="color:rgba(255,255,255,.5);font-size:.75rem;">Last Updated 8/21/2024</span>
+        </div>
+      </div>
+      <div class="course-body">
+        <div class="course-info-row">
+          <div class="course-info-item">
+            <i class="fa-solid fa-chalkboard"></i>
+            <span>Face-to-Face Instruction</span>
+          </div>
+          <div class="course-info-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>USC Columbia Campus</span>
+          </div>
+          <div class="course-info-item">
+            <i class="fa-solid fa-calendar"></i>
+            <span>Columbia Full Term (Part of Term: 30)</span>
+          </div>
+        </div>
+
+        <p class="course-desc">
+          This course introduces the central concepts, algorithms, and tools that define
+          bioinformatics, covering important problems including nucleotide and amino acid sequence
+          alignment, DNA fragment assembly, phylogenetic reconstruction, and protein structure
+          visualization and assessment.
+        </p>
+
+        <p class="course-desc">
+          The curriculum begins with a brief introduction to biological concepts and programming
+          in Python, then delves into core bioinformatics algorithms and their biological
+          applications.
+        </p>
+
+        <h5 style="margin-bottom:.75rem;color:var(--navy);">Topics Covered</h5>
+        <ul class="topic-list">
+          <li>Biology, genetics, and molecular biology foundations</li>
+          <li>Introductory programming in Python</li>
+          <li>Pairwise sequence alignment and dynamic programming</li>
+          <li>Multiple sequence alignment</li>
+          <li>DNA fragment assembly</li>
+          <li>Phylogenetic analysis and visualization</li>
+          <li>Biopython — practical applications</li>
+          <li>Introduction to biological databases</li>
+          <li>Probabilistic motifs and stochastic algorithms</li>
+          <li>Hidden Markov Models (HMM)</li>
+          <li>Protein structure visualization and assessment</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-name">Hamed Abdollahi, DVM, PhD</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="biolab.html">Molecular BioLab</a>
+      <a href="computational.html">Computational Biology</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="publications.html">Publications</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="footer-copy">Postdoctoral Fellow · University of South Carolina · Columbia, SC</p>
+  </div>
+</footer>
+
+</body>
+</html>

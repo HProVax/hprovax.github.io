@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Computational Biology | Hamed Abdollahi</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="images/logo.png" alt="Hamed Abdollahi" />
+      <div>
+        <div class="nav-brand-name">Hamed Abdollahi</div>
+        <div class="nav-brand-title">DVM, PhD · Postdoctoral Fellow</div>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="biolab.html">Molecular BioLab</a></li>
+      <li><a href="computational.html" class="active">Computational Biology</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-banner">
+  <p class="page-banner-label">Bioinformatics &amp; AI</p>
+  <h1 class="page-banner-title">Computational Biology</h1>
+  <p class="page-banner-sub">
+    Bridging wet-lab science and computational analysis through programming, machine learning,
+    and advanced bioinformatics.
+  </p>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <!-- OVERVIEW -->
+    <p style="font-size:1.05rem;color:var(--text-muted);max-width:800px;margin-bottom:2.5rem;line-height:1.75;">
+      With a powerful blend of programming expertise and extensive wet-lab experience in genomics
+      and proteomics, I am uniquely positioned to bridge the gap between laboratory science and
+      computational analysis. Over three years as a Genomics Postdoctoral Fellow at the
+      <strong>College of Computer Science and Engineering, University of South Carolina</strong>,
+      I have led five machine learning projects — advancing from decision trees in Scikit-learn
+      to sophisticated neural networks using PyTorch.
+    </p>
+
+    <div class="stat-chips" style="margin-bottom:3rem;">
+      <div class="stat-chip">
+        <span class="stat-chip-value">5</span>
+        <span class="stat-chip-label">ML Projects</span>
+      </div>
+      <div class="stat-chip">
+        <span class="stat-chip-value">3+</span>
+        <span class="stat-chip-label">Years Postdoc</span>
+      </div>
+      <div class="stat-chip">
+        <span class="stat-chip-value">R &amp; Py</span>
+        <span class="stat-chip-label">Primary Languages</span>
+      </div>
+      <div class="stat-chip">
+        <span class="stat-chip-value">8+</span>
+        <span class="stat-chip-label">Publications</span>
+      </div>
+    </div>
+
+    <!-- PROGRAMMING LANGUAGES & TOOLS -->
+    <div class="section-header" style="text-align:left;margin-bottom:2rem;">
+      <span class="section-label">Programming</span>
+      <h2 class="section-title">Languages &amp; Environments</h2>
+      <div class="divider" style="margin-left:0;"></div>
+    </div>
+
+    <div class="card-grid card-grid-3" style="margin-bottom:3rem;">
+
+      <div class="card">
+        <div class="card-icon" style="background:#f0f9ff;color:#0369a1;">
+          <i class="fa-solid fa-r"></i>
+        </div>
+        <h4 class="card-title">R &amp; Bioconductor</h4>
+        <p class="card-text">
+          Proficient in R for statistical computing and bioinformatics, leveraging the
+          Bioconductor ecosystem for genomic data analysis.
+        </p>
+        <ul class="card-list">
+          <li>DESeq2 — differential gene expression</li>
+          <li>Bioconductor packages</li>
+          <li>ggplot2 / visualization</li>
+          <li>RStudio / Quarto</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-icon" style="background:#fef9c3;color:#854d0e;">
+          <i class="fa-brands fa-python"></i>
+        </div>
+        <h4 class="card-title">Python</h4>
+        <p class="card-text">
+          Advanced Python scripting for machine learning, structural biology, and
+          sequence analysis pipelines.
+        </p>
+        <ul class="card-list">
+          <li>Scikit-learn — classical ML</li>
+          <li>PyTorch — neural networks</li>
+          <li>Biopython — sequence analysis</li>
+          <li>Pandas / NumPy / Matplotlib</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-icon" style="background:#f0fdf4;color:#166534;">
+          <i class="fa-solid fa-terminal"></i>
+        </div>
+        <h4 class="card-title">Command-Line &amp; Linux</h4>
+        <p class="card-text">
+          Proficient in text-based environments and shell scripting for pipeline
+          automation and high-performance computing workflows.
+        </p>
+        <ul class="card-list">
+          <li>Bash scripting &amp; automation</li>
+          <li>HPC / cluster computing</li>
+          <li>Nextflow / workflow management</li>
+          <li>Git / version control</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- RESEARCH AREAS -->
+    <div class="section-header" style="text-align:left;margin-bottom:2rem;">
+      <span class="section-label">Computational Research</span>
+      <h2 class="section-title">Research &amp; Analysis Areas</h2>
+      <div class="divider" style="margin-left:0;"></div>
+    </div>
+
+    <div class="card-grid card-grid-2" style="margin-bottom:3rem;">
+
+      <div class="expertise-card">
+        <div class="expertise-tag">Genomics</div>
+        <h3>Sequencing Data Analysis &amp; Phylogeny</h3>
+        <p class="card-text">
+          Extensive wet-lab sequencing experience combined with programming expertise
+          enables seamless integration of raw data into meaningful insights — alignments,
+          quality control, and advanced phylogenetic analysis.
+        </p>
+      </div>
+
+      <div class="expertise-card">
+        <div class="expertise-tag">Transcriptomics</div>
+        <h3>Gene Expression Data Analysis</h3>
+        <p class="card-text">
+          RNA-Seq analysis pipelines from raw reads through differential expression,
+          pathway enrichment, and biological interpretation. Includes DESeq2-based
+          factorial modeling and circadian transcriptomics.
+        </p>
+      </div>
+
+      <div class="expertise-card">
+        <div class="expertise-tag">Epigenomics</div>
+        <h3>DNA Methylation Analysis</h3>
+        <p class="card-text">
+          Genome-wide methylation profiling to explore epigenetic changes and their
+          influence on health. Applied Random Forest models to CpG loci data to
+          identify biomarkers of cognitive impairment.
+        </p>
+      </div>
+
+      <div class="expertise-card">
+        <div class="expertise-tag">Structural Biology</div>
+        <h3>Computational Structural Biology</h3>
+        <p class="card-text">
+          An all-in-one pipeline from gene and construct design to structural analysis
+          of macromolecules. Developing comprehensive tools bridging biology and
+          computation using PyMOL, VMD, and GROMACS.
+        </p>
+        <ul class="card-list">
+          <li>Protein structure prediction (AlphaFold, I-TASSER, ROSETTA)</li>
+          <li>Molecular dynamics (GROMACS, NAMD)</li>
+          <li>Residual dipolar coupling (RDC) analysis</li>
+          <li>Protein-protein interaction networks (Cytoscape)</li>
+        </ul>
+      </div>
+
+      <div class="expertise-card">
+        <div class="expertise-tag">Primer Design</div>
+        <h3>Custom Primer Design &amp; Assay Development</h3>
+        <p class="card-text">
+          Deep understanding of PCR techniques combined with advanced programming skills
+          enables custom primer and assay design for innovative diagnostic products,
+          services, and research applications.
+        </p>
+      </div>
+
+      <div class="expertise-card">
+        <div class="expertise-tag">Machine Learning</div>
+        <h3>Machine Learning in Biology</h3>
+        <p class="card-text">
+          Led five ML projects in biological research, from classical decision trees
+          to deep neural networks, applied to genomics, proteomics, and medical imaging.
+        </p>
+        <ul class="card-list">
+          <li>Decision trees &amp; random forests (Scikit-learn)</li>
+          <li>Deep learning (PyTorch)</li>
+          <li>Biomarker discovery from high-dimensional omics data</li>
+          <li>Vascular segmentation in CTA images</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- TOOLS & ECOSYSTEM -->
+    <div class="section-header" style="text-align:left;margin-bottom:2rem;">
+      <span class="section-label">Software &amp; Platforms</span>
+      <h2 class="section-title">Computational Tools &amp; Ecosystem</h2>
+      <div class="divider" style="margin-left:0;"></div>
+    </div>
+
+    <div class="card-grid card-grid-3">
+      <div class="card">
+        <h4 class="card-title">Bioinformatics Platforms</h4>
+        <div class="tool-grid" style="margin-top:.75rem;">
+          <span class="tool-chip">DESeq2</span>
+          <span class="tool-chip">Bioconductor</span>
+          <span class="tool-chip">Biopython</span>
+          <span class="tool-chip">BLAST</span>
+          <span class="tool-chip">Clustal Omega</span>
+          <span class="tool-chip">MUSCLE</span>
+          <span class="tool-chip">IQ-TREE</span>
+          <span class="tool-chip">FastQC</span>
+          <span class="tool-chip">STAR / HISAT2</span>
+        </div>
+      </div>
+      <div class="card">
+        <h4 class="card-title">Structural Biology</h4>
+        <div class="tool-grid" style="margin-top:.75rem;">
+          <span class="tool-chip">AlphaFold</span>
+          <span class="tool-chip">PyMOL</span>
+          <span class="tool-chip">VMD</span>
+          <span class="tool-chip">GROMACS</span>
+          <span class="tool-chip">NAMD</span>
+          <span class="tool-chip">ROSETTA</span>
+          <span class="tool-chip">I-TASSER</span>
+          <span class="tool-chip">PDB</span>
+        </div>
+      </div>
+      <div class="card">
+        <h4 class="card-title">Machine Learning &amp; Visualization</h4>
+        <div class="tool-grid" style="margin-top:.75rem;">
+          <span class="tool-chip">Scikit-learn</span>
+          <span class="tool-chip">PyTorch</span>
+          <span class="tool-chip">TensorFlow</span>
+          <span class="tool-chip">Cytoscape</span>
+          <span class="tool-chip">ggplot2</span>
+          <span class="tool-chip">Matplotlib</span>
+          <span class="tool-chip">Seaborn</span>
+          <span class="tool-chip">Plotly</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- WORKSHOP OFFERINGS -->
+    <div class="section-header" style="text-align:left;margin-bottom:2rem;margin-top:3.5rem;">
+      <span class="section-label">Workshops</span>
+      <h2 class="section-title">Training &amp; Workshops</h2>
+      <div class="divider" style="margin-left:0;"></div>
+    </div>
+
+    <p style="color:var(--text-muted);margin-bottom:2rem;">
+      Available for workshops and hands-on training sessions in computational biology,
+      bioinformatics, and data analysis for research groups, core facilities, and
+      industry teams.
+    </p>
+
+    <div class="card-grid card-grid-3">
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+        <h4 class="card-title">R for Genomics</h4>
+        <p class="card-text">
+          Hands-on introduction to R and Bioconductor for RNA-Seq analysis, from data
+          loading and quality control through differential expression and visualization.
+        </p>
+      </div>
+      <div class="card">
+        <div class="card-icon"><i class="fa-brands fa-python"></i></div>
+        <h4 class="card-title">Python for Bioinformatics</h4>
+        <p class="card-text">
+          Practical workshop on Python and Biopython for sequence analysis, data
+          manipulation, and building bioinformatics pipelines.
+        </p>
+      </div>
+      <div class="card">
+        <div class="card-icon"><i class="fa-solid fa-network-wired"></i></div>
+        <h4 class="card-title">ML in Life Sciences</h4>
+        <p class="card-text">
+          Introduction to machine learning approaches applicable to biological data —
+          classification, feature selection, and interpretable models for omics datasets.
+        </p>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:2rem;">
+      <p>
+        <i class="fa-solid fa-paper-plane" style="color:var(--teal);margin-right:.5rem;"></i>
+        Interested in a workshop or collaboration? <a href="contact.html">Get in touch</a>.
+        Visit my
+        <a href="https://github.com/HProVax" target="_blank">GitHub</a> for code repositories
+        and the
+        <a href="https://hprovax.github.io/DAiR2024.github.io/" target="_blank">Data Analysis in R 2024</a>
+        resource.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-name">Hamed Abdollahi, DVM, PhD</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="biolab.html">Molecular BioLab</a>
+      <a href="computational.html">Computational Biology</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="publications.html">Publications</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <p class="footer-copy">Postdoctoral Fellow · University of South Carolina · Columbia, SC</p>
+  </div>
+</footer>
+
+</body>
+</html>
